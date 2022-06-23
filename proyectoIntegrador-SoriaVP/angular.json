@@ -27,11 +27,13 @@
               "src/assets"
             ],
             "styles": [
-              "src/styles.css",
-              "proyectoIntegrador-SoriaVP/node_modules/bootstrap/dist/css"
+              "node_modules/bootstrap/dist/css/bootstrap.min.css",
+              "src/styles.css"
             ],
             "scripts": [
-              "proyectoIntegrador-SoriaVP/node_modules/bootstrap/dist/js"
+              "node_modules/jquery/dist/jquery.min.js",
+              "node_modules/@popperjs/core/dist/umd/popper.min.js",
+              "node_modules/bootstrap/dist/js/bootstrap.min.js"
             ]
           },
           "configurations": {
@@ -105,5 +107,8 @@
       }
     }
   },
-  "defaultProject": "proyectoIntegrador-SoriaVP"
+  "defaultProject": "proyectoIntegrador-SoriaVP",
+  "cli": {
+    "analytics": "65404108-e4dd-4636-a172-db855ed7bc32"
+  }
 }
